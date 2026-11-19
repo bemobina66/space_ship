@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820e31241052eeb0cada5aa643d3b7e6, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: Assembly-CSharp::LevelDataSO
+  levelIndex: 2
+  sceneName: Level2
+  title: Asteroid Belt
+  waves:
+  - {fileID: 11400000, guid: 03431d2d81737e82facec6f49b70c801, type: 2}
+  - {fileID: 11400000, guid: 8e6d54fbd2682a1a19237f4c77d295eb, type: 2}
+  - {fileID: 11400000, guid: 6ee60fa803c1c46c086974148dcf1923, type: 2}
+  - {fileID: 11400000, guid: 0af43364dce28343d9bed63e0b90baa2, type: 2}
+  - {fileID: 11400000, guid: ccf325094815fd2fd8591883fde8c2be, type: 2}
+  - {fileID: 11400000, guid: 5b294b3ad316e969bbdfdc76da1720ee, type: 2}
+  - {fileID: 11400000, guid: ff69bfe611e72be5cb967a395c5b4ff6, type: 2}
+  nextLevel: {fileID: 11400000, guid: cc3435c17797187d88a7d5d67e967c5e, type: 2}
+  backgroundSprite: background2
+  enemySprite: chicken2
+  bossSprite: boss2
+  musicClip: music2

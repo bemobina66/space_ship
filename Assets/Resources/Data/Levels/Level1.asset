@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820e31241052eeb0cada5aa643d3b7e6, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: Assembly-CSharp::LevelDataSO
+  levelIndex: 1
+  sceneName: Level1
+  title: Earth Orbit
+  waves:
+  - {fileID: 11400000, guid: aee76f1bd0c0a39628f3cfa91f8063e5, type: 2}
+  - {fileID: 11400000, guid: e5bd675dd59378e2a80229eb85068d40, type: 2}
+  - {fileID: 11400000, guid: e71bd761b1fe1b62fa7fa6b10473d975, type: 2}
+  - {fileID: 11400000, guid: f0029523ba86dddaf86bc84b568bdae2, type: 2}
+  - {fileID: 11400000, guid: a8381c02ba8cc36d98ca1d570fa4f729, type: 2}
+  nextLevel: {fileID: 11400000, guid: 21e2000f3324c1a14a964e075f188dbf, type: 2}
+  backgroundSprite: background1
+  enemySprite: chicken1
+  bossSprite: boss1
+  musicClip: music1
